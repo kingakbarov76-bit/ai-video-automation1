@@ -1,0 +1,13 @@
+{
+  "name": "youtube-shorts-ai-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Free, fully automated pipeline: Gemini writes a script, Google TTS voices it, Pexels supplies real stock footage, ffmpeg renders it, and it publishes to YouTube every 12 hours via GitHub Actions.",
+  "scripts": {
+    "publish": "node scripts/publish.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
